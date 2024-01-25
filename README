@@ -1,0 +1,25 @@
+       
+       Group Members:
+        ------------------------------------------------------------------------
+        |   Krishna Khanal         800771289               krkhana@siue.edu     |
+        |   Sushrit Kafle          800792522               sukafle@siue.edu     |
+        |   Venkatesh Bollineni    800792618               vbollin@siue.edu     |
+        -------------------------------------------------------------------------
+
+
+Project consists of seven programs 
+
+-bbs.cpp
+-bbp.cpp
+-qss.cpp
+-qsp.cpp
+-mss.cpp
+-msp.cpp
+-reference.cpp
+
+Codes can be executed in the following format :
+
+[executable name] [amount of random nums to generate] [number of threads to use] [seed value for rand]
+
+for example: bbs 100000 8 10
+
