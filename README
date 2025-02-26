@@ -1,16 +1,57 @@
-Project consists of seven programs 
+Project Overview
 
--bbs.cpp
--bbp.cpp
--qss.cpp
--qsp.cpp
--mss.cpp
--msp.cpp
--reference.cpp
+This project explores parallel programming using OpenMP to implement and compare different sorting algorithms. The goal is to analyze performance scalability on multi-core architectures by implementing both serial and parallel versions of sorting algorithms.
 
-Codes can be executed in the following format :
+Implemented Sorting Algorithms
+
+The project consists of seven programs:
+
+bbs.cpp	- Serial version of Bubble sort
+
+bbp.cpp	- Parallel version of Bubble sort
+
+qss.cpp	 - Serial version of Quick sort
+
+qsp.cpp	 - Parallel version of Quick sort
+
+mss.cpp	 - Serial version of Merge sort
+
+msp.cpp	 - Parallel version of Merge sort
+
+reference.cpp	Uses STL sort for reference
+
+Each program accepts command-line arguments in the following format:
 
 [executable name] [amount of random nums to generate] [number of threads to use] [seed value for rand]
 
 for example: bbs 100000 8 10
+
+bbs → Executable name (Bubble Sort - Serial)
+
+100000 → Number of random integers to generate
+
+8 → Number of threads (for parallel versions, ignored in serial ones)
+
+10 → Seed value for random number generation
+
+A Makefile is provided to compile all executables. To compile, simply run:
+
+make
+
+Report Overview
+
+The report includes:
+
+Performance Analysis: Execution time comparison between serial, parallel, and reference implementations.
+
+Graphical Representation: Plots showing execution time for different input sizes.
+
+Hyperthreading Effects: Discussion on the impact of hyperthreading on execution time.
+
+System Requirements
+
+C++ compiler supporting OpenMP 
+
+Linux environment or a compatible system for running the Makefile
+
 
