@@ -7,7 +7,6 @@ Implemented Sorting Algorithms
 The project consists of seven programs:
 
 bbs.cpp	- Serial version of Bubble sort
-
 bbp.cpp	- Parallel version of Bubble sort
 
 qss.cpp	 - Serial version of Quick sort
